@@ -12,5 +12,6 @@ variable "redshift_cluster_identifier" {
 
 variable "email_endpoints" {
   description = "Emails to be subscribed to the SNS topic"
-  default     = ["hope.chika247@gmail.com", "depathfinder247@gmail.com", "anifowoseun11@gmail.com"]
+  default     = ["hope.chika247@gmail.com", "depathfinder247@gmail.com"]
+  # , "anifowoseun11@gmail.com"
 }
